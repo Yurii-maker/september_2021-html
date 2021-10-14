@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.father {
+    display: flex;
+}
+
+.child {
+    display: flex;
+    flex-direction: column;
+    border-right: 10px solid #756d6d;
+}
+
+.child2 {
+    background-color: black;
+    color: white
+}
+
+.discription2 {
+    height: 920px;
+    width: 300px;
+    text-align: center;
+    background-color: black;
+    color: white
+}
+
+.characters {
+    width: 700px
+}
+
+
