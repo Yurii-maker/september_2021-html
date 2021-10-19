@@ -1,0 +1,50 @@
+.d-flex {
+    display: flex
+}
+
+.justcont-c {
+    justify-content: center
+}
+
+.alit-c {
+    align-items: center
+}
+
+.bgc-grey {
+    background-color: #9b9595;
+}
+
+.fs-50 {
+    font-size: 50px
+}
+
+.h-250 {
+    height: 250px
+}
+
+.mt-10 {
+    margin-top: 10px
+}
+
+.w-1600 {
+    width: 1600px
+}
+
+.w-393 {
+    width: 393px
+}
+
+.father {
+    flex-direction: column
+}
+
+.line {
+    justify-content: space-between;
+    width: 1200px
+}
+
+.h {
+    height: 510px;
+    margin-left: 10px;
+    width: 390px;
+}

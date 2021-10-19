@@ -1,0 +1,61 @@
+.d-flex {
+    display: flex
+}
+
+.justcont-c {
+    justify-content: center
+}
+
+.alit-c {
+    align-items: center
+}
+
+.l-blue {
+    background-color: #0894d5
+}
+
+.d-blue {
+    background-color: blue
+}
+
+.mt-20 {
+    margin-top: 20px
+}
+
+.w-1500 {
+    width: 1500px
+}
+
+.fs-50 {
+    font-size: 50px
+}
+
+.fs-30 {
+    font-size: 30px
+}
+
+.col-w {
+    color: white
+}
+
+.w-740 {
+    width: 740px
+}
+
+.menu {
+    height: 800px;
+    justify-content: space-between
+}
+
+.kabobs {
+    height: 400px
+}
+
+.line {
+    justify-content: space-between
+}
+
+.block {
+    width: 490px;
+    height: 350px;
+}
