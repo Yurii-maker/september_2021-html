@@ -1,0 +1,59 @@
+.d-flex {
+    display: flex
+}
+
+.justcont-c {
+    justify-content: center
+}
+
+.alit-c {
+    align-items: center
+}
+
+.w-1500 {
+    width: 1500px;
+}
+
+.fs-50 {
+    font-size: 50px
+}
+
+.col-w {
+    color: white
+}
+
+.h-250 {
+    height: 250px
+}
+
+.father {
+    flex-direction: column
+}
+
+.header {
+    height: 280px;
+    background-color: blue;
+}
+
+.nav {
+    background-color: #020242;
+    border-top: 2px solid grey;
+
+}
+
+.main {
+    width: 1198px;
+    height: 700px;
+    background-color: #4343d5
+}
+
+.aside {
+    width: 300px;
+    height: 700px;
+    background-color: #0894d5;
+    border-left: 2px solid grey;
+}
+
+.footer {
+    background-color: #429bd5
+}

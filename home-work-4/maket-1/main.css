@@ -1,0 +1,44 @@
+.d-flex {
+    display: flex
+}
+
+.justcont-c {
+    justify-content: center
+}
+
+.alit-c {
+    align-items: center
+}
+
+.bgc-grey {
+    background-color: #9b9595;
+}
+
+.fs-50 {
+    font-size: 50px
+}
+
+.h-500 {
+    height: 500px;
+}
+
+.father {
+    flex-direction: column;
+}
+
+.a {
+    height: 200px;
+    width: 1500px;
+}
+
+.b {
+    margin-top: 10px;
+    width: 1200px;
+}
+
+.c {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 290px;
+}
+

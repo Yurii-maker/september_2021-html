@@ -1,0 +1,45 @@
+.father {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+#header {
+    width: 1500px;
+    height: 200px;
+    background-color: #b1f15b;
+    border: 2px solid black
+}
+
+
+#Menu {
+    width: 400px;
+    height: 900px;
+    background-color: rosybrown;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
+.wrap {
+    display: flex;
+}
+
+.posts {
+    margin-left: 10px
+}
+
+.Post {
+    background-color: #0894d5;
+    border: 2px solid black;
+    margin-top: 10px;
+    height: 443px;
+    width: 1086px
+}
+
+#footer {
+    width: 1500px;
+    height: 200px;
+    margin-top: 10px;
+    border: 2px solid black
+}
