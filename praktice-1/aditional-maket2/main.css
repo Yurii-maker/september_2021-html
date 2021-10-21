@@ -45,13 +45,13 @@ body {
 
 .head {
     width: 1500px;
-    height: 200px;
+    height: 180px;
     justify-content: space-between;
 }
 
 .left-side {
     width: 300px;
-    height: 1500px;
+    height: 2100px;
     row-gap: 30px;
 }
 
@@ -74,4 +74,54 @@ body {
 .right-side-block-2 {
     width: 250px;
     height: 130px;
+}
+
+.right-side-center-left {
+    width: 1000px;
+    column-gap: 30px;
+    row-gap: 30px;
+    flex-wrap: wrap;
+}
+
+.right-side-center-block-left {
+    width: 450px;
+    height: 150px;
+}
+
+.right-side-center-right {
+    width: 200px;
+    height: 1250px
+}
+
+.right-side-down-center-block {
+    position: relative;
+    left: 37%
+}
+
+.right-side-center-right {
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.right-side-center-block-right {
+    width: 130px;
+    height: 100px
+}
+
+.footer {
+    flex-direction: column;
+    height: 250px;
+    row-gap: 50px
+}
+
+.footer-block-1 {
+    width: 1120px;
+    height: 50px
+}
+
+.footer-block-2 {
+    width: 220px;
+    height: 50px;
+    position: relative;
+    left: 40%
 }
