@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+.project {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+div {
+    box-sizing: border-box
+}
+
+:root {
+    --blue-color: #39C4EC;
+    --grey-color: #CED8E1;
+    --dark-blue-color: #0E2C3E
+}
+
+.d-flex {
+    display: flex
+}
+
+.fl_dir-column {
+    flex-direction: column
+}
+
+.al_it-c {
+    align-items: center
+}
+
+.just_cont-c {
+    justify-content: center
+}
+
+.header_links {
+    background-color: var(--blue-color);
+    min-height: 50px;
+    column-gap: 2%;
+    justify-content: flex-end;
+    padding-right: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark-blue-color)
+}
+
+.nav {
+    background-color: var(--grey-color);
+    min-height: 150px;
+    padding: 3% 10% 0 10%;
+    justify-content: space-between;
+
+}
+
+.nav_left-side {
+    height: 70px;
+    width: 150px;
+    background-color: var(--dark-blue-color);
+    border-radius: 20px;
+}
+
+.nav_right-side {
+    column-gap: 4%;
+    margin-top: 6%
+}
+
+.nav_description {
+    min-height: 300px;
+    background-color: var(--blue-color);
+    row-gap: 30px;
+}
+
+.description {
+    text-align: center;
+    max-width: 250px
+}
+
+.nav_description_block {
+    height: 40px;
+    width: 200px;
+    background-color: var(--dark-blue-color);
+    border-radius: 25px;
+}
+
+.menu_wrap {
+    background-color: var(--grey-color);
+    min-height: 400px;
+    padding: 2% 6%;
+
+}
+
+.menu {
+    border: 3px solid var(--blue-color);
+    border-radius: 20px;
+    padding: 5%;
+    row-gap: 50px;
+    min-width: 100%;
+}
+
+.menu_block_with_description {
+    row-gap: 30px;
+
+}
+
+.menu_blocks {
+    min-width: 100%;
+    column-gap: 4%;
+}
+
+.menu_block {
+    min-height: 170px;
+    width: 170px;
+    background-color: var(--dark-blue-color);
+    border-radius: 25px;
+
+}
+
+.items {
+    background-color: var(--dark-blue-color);
+    justify-content: space-evenly;
+    padding: 5% 0;
+
+}
+
+.item_with_description {
+    row-gap: 20px;
+}
+
+.item {
+    min-height: 170px;
+    min-width: 170px;
+    background-color: var(--grey-color);
+    border-radius: 50%;
+
+}
+
+.item_description {
+    text-align: center;
+    color: var(--grey-color);
+}
+
+.products_header {
+    background-color: var(--grey-color);
+    color: var(--dark-blue-color);
+    text-align: center;
+    padding: 3% 3%;
+}
+
+.products {
+    flex-wrap: wrap;
+    background-color: var(--grey-color);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.product {
+    background-color: var(--grey-color);
+    padding: 1%;
+    padding-bottom: 0;
+    border: 2px solid var(--blue-color);
+    border-radius: 20px;
+    width: 29%;
+}
+
+.product_block {
+    background-color: var(--dark-blue-color);
+    min-width: 120px;
+    min-height: 140px;
+    border-radius: 20px;
+}
+
+.product_header {
+    justify-content: space-between;
+    padding: 3%;
+    color: var(--dark-blue-color);
+}
+
+.product_description {
+    padding: 1%;
+    color: var(--dark-blue-color);
+    text-align: justify;
+}
+
+.product_footer {
+    padding: 2%;
+    border-top: 3px solid var(--blue-color);
+    min-width: 100%;
+    justify-content: space-between;
+}
+
+.product_footer_left_block {
+    background-color: var(--dark-blue-color);
+    width: 100px;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.product_footer_right_blocks {
+    column-gap: 5%
+}
+
+.product_footer_right_block {
+    background-color: var(--dark-blue-color);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.aside {
+    background-color: var(--grey-color);
+    padding: 3%;
+}
+
+.aside_block {
+    width: 45%;
+    background-color: var(--dark-blue-color);
+    min-height: 250px;
+    color: var(--blue-color);
+    padding: 3%;
+    text-align: justify;
+}
+
+.right {
+    background-color: var(--blue-color);
+    color: var(--dark-blue-color);
+}
+
+.block_box {
+    width: 60%;
+    min-height: 50px;
+    background-color: var(--blue-color);
+    border-radius: 20px;
+    margin-top: 15%;
+}
+
+.aside_right {
+    background-color: var(--dark-blue-color)
+}
+
+.footer {
+    background-color: var(--dark-blue-color);
+    min-height: 150px;
+    padding: 3%;
+}
+
+.footer_block {
+    column-gap: 10px;
+    width: 40%;
+    border-bottom: 4px solid var(--blue-color);
+    min-height: 100px;
+}
+
+.footer_block_box {
+    width: 50px;
+    height: 50px;
+    background-color: var(--grey-color);
+    border-radius: 15px;
+}

@@ -1,0 +1,33 @@
+@media screen and (max-width: 900px) {
+    .menu_blocks {
+        display: block;
+    }
+
+    .menu_block {
+        width: 100%
+    }
+
+    .items {
+        flex-direction: column;
+        row-gap: 20px;
+        padding: 3%;
+    }
+
+    .item {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .product {
+        width: 100%
+    }
+
+    .aside {
+        flex-direction: column;
+    }
+
+    .right, .left {
+        width: 100%;
+    }
+
+}
