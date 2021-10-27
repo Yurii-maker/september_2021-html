@@ -184,7 +184,7 @@ table {
 .products {
     width: 1200px;
     padding: 300px;
-    margin-left: 175px;
+    margin-left: 2.5%;
     justify-content: space-between;
     position: absolute;
 
@@ -193,9 +193,9 @@ table {
 .product {
     width: 349px;
     height: 328px;
-    background: #FFFFFF;
+    background: #f1ecec;
     position: relative;
-    top: 140px;
+    margin-top: 10%;
 }
 
 .product img {
