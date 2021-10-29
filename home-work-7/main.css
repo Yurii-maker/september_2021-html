@@ -1,0 +1,149 @@
+body {
+    background: url("image/bg.png") no-repeat center/cover;
+    margin: 0 auto;
+    padding: 0;
+    min-height: 800px;
+}
+
+.pr-170 {
+    padding-right: 170px
+}
+
+.navbar {
+    background: none;
+}
+
+.navbar-collapse {
+    flex-grow: 0
+}
+
+.navbar-brand img {
+    height: 48px;
+    width: 64px
+}
+
+.nav-link {
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    color: #FFFFFF !important;
+}
+
+.nav-link img {
+    height: 17px;
+    width: 20px
+}
+
+.navbar-brand {
+    margin-left: 100px
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    column-gap: 23px;
+    align-items: center;
+}
+
+.navbar-collapse {
+    margin-left: 120px;
+    column-gap: 23px;
+}
+
+.icon {
+    border-right: 1px solid #FFFFFF;
+    position: relative;
+    height: 70px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+.contacts {
+    padding-top: 20px;
+}
+
+.contacts h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+
+}
+
+.contacts p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF
+}
+
+.contacts img {
+    height: 30px;
+    width: 30px
+}
+
+.btn-warning {
+    margin-left: 40px
+}
+
+.restaurant_welcome {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.restaurant_welcome h4 {
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 57px;
+    color: #D67E35;
+}
+
+.restaurant_welcome h3 {
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 62px;
+    color: #D67E35;
+}
+
+.restaurant_welcome p {
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    column-gap: 10px;
+}
+
+.restaurant_welcome p::before, .restaurant_welcome p::after {
+    content: "";
+    display: block;
+    width: 61px;
+    height: 2px;
+    background-color: #FFFFFF
+}
+
+.restaurant_welcome .btn {
+    margin-left: 0
+}
+
+.card {
+    bottom: 10%
+}
+
+.card img {
+    width: 101px;
+    height: 111px
+}
+
+.card span {
+    color: #BC9060
+}
+
+.menu {
+    margin-top: 18%
+}
+
+
+
