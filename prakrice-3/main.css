@@ -1,0 +1,63 @@
+.container-fluid {
+    padding: 1% 10%;
+}
+
+.flex-grow-1 {
+    flex-grow: 1 !important;
+}
+
+.nav-link {
+    transition: color .5s !important;
+}
+
+.nav-link:hover {
+    color: #39C4EC !important;
+}
+
+.menu {
+    box-sizing: border-box
+}
+
+.company_name {
+    width: 50%;
+    padding: 5%;
+    row-gap: 50px;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%
+}
+
+.company_name h1 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: -0.4px;
+    color: #1652AC;
+}
+
+.company_name h2 {
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 35px;
+    letter-spacing: -0.4px;
+    color: #1652AC
+}
+
+.company_name p {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: -0.4px;
+    color: #020303;
+    row-gap: 30px;
+}
+
+.company_name p::before, .company_name p::after {
+    content: "";
+    display: block;
+    width: 250px;
+    height: 4px;
+    background-color: #c1c7c6
+}

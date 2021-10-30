@@ -1,0 +1,32 @@
+@media screen and (max-width: 400px) {
+
+    .logo {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .logo img {
+        width: 80px;
+        height: 31px
+    }
+
+    .menu {
+        flex-direction: column-reverse;
+    }
+
+    .menu img {
+        width: 355px;
+        height: 354px
+    }
+
+    .company_name h1 {
+        font-size: 40px;
+    }
+
+    .company_name p::after {
+        display: none
+    }
+
+}
