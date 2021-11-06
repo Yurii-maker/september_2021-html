@@ -1,4 +1,5 @@
 @media screen and (max-width: 320px) {
+
     .nav, .search_menu, .general_products, .modules, .product_lists_btns, .products_cards, .news, .footer {
         padding: 10px
     }
