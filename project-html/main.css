@@ -1,0 +1,442 @@
+
+body {
+    padding: 0;
+    margin: 0
+}
+
+a {
+    text-decoration: none
+}
+
+.project {
+    margin: 0 auto
+}
+
+.pad {
+    padding: 10px 120px
+}
+
+.nav {
+    background: #0F2438;
+}
+
+.location {
+    column-gap: 7px
+}
+
+.nav h3 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 0
+}
+
+.city_name {
+    text-decoration: underline
+}
+
+.dropdown button {
+    background: none !important;
+    border: none !important;
+}
+
+.nav_left-side {
+    column-gap: 25px
+}
+
+.nav_right-side {
+    column-gap: 20px
+}
+
+.info {
+    background: #FFFFFF;
+    margin-top: 16px
+
+}
+
+
+.logo_with_brand img {
+    width: 100px;
+    height: 105px
+}
+
+.work_shedule {
+    column-gap: 10px
+}
+
+.work_shedule img {
+    width: 45px;
+    height: 45px
+}
+
+.work_shedule p, .whatsapp p, .address p, .contact h2, p, .logo_with_brand h1 {
+    margin-bottom: 0;
+}
+
+.whatsapp, .whatsapp_mobile {
+    background: #E1EFD0
+}
+
+.whatsapp img {
+    width: 20px;
+    height: 20px
+}
+
+.whatsapp {
+    border-radius: 5px;
+    column-gap: 5px;
+    min-height: 30px
+}
+
+.contact p {
+    text-decoration: underline
+}
+
+.search_menu {
+    margin-top: 50px
+}
+
+.search_menu a {
+    color: #0F2438
+}
+
+.btn {
+    justify-content: space-around;
+    width: 200px;
+    height: 70px
+}
+
+.form-inline {
+    width: 100%
+}
+
+.btn_blocks {
+    row-gap: 3px
+}
+
+.btn_block {
+    width: 20px;
+    height: 2px;
+    background: #FFFFFF
+}
+
+.search_product {
+    width: 45%;
+}
+
+.navbar {
+    width: 100%
+}
+
+.customer_menu {
+    column-gap: 40px
+}
+
+.customer_item {
+    column-gap: 20px
+}
+
+.general_products {
+    column-gap: 15px
+}
+
+.carousel {
+    background: url("images/Mask Group2.png") no-repeat center/cover;
+    border-radius: 20px
+}
+
+.carousel {
+    width: 75%
+}
+
+.carousel-item > img {
+    max-height: 356px;
+    max-width: 412px
+}
+
+.carousel_text {
+    row-gap: 20px
+}
+
+.carousel_text h3 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #0A1A2C
+}
+
+.carousel_text p {
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration-line: underline;
+    color: #717171
+}
+
+.carousel_text h2 {
+    font-weight: 500;
+    font-size: 37px;
+    line-height: 43px;
+    color: #005BB9
+}
+
+.price {
+    column-gap: 10px;
+}
+
+.price img {
+    height: 50%
+}
+
+.general_products_right-side {
+    row-gap: 15px;
+}
+
+.discount {
+    background-color: #F4F5FA;
+    padding: 20px 0;
+    column-gap: 15px;
+    border-radius: 10px;
+}
+
+.discount_header {
+    row-gap: 15px
+}
+
+.discount_header img {
+    width: 80px;
+    height: 74px
+}
+
+.discount_header h3 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F2438
+}
+
+.discount_product {
+    margin-top: 40px;
+    row-gap: 10px;
+    max-width: 38%;
+}
+
+.discount_product h2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #0A1A2C
+}
+
+.discount_product p {
+    font-size: 12px;
+    line-height: 14px;
+    color: #525252
+}
+
+.discount_price {
+    column-gap: 10px
+}
+
+.discount_price h2 {
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFB800;
+    margin-bottom: 0
+}
+
+.discount_price img {
+    height: 50%
+}
+
+.discount_btn {
+    max-width: 70px;
+    margin-top: 85px;
+}
+
+.arrow {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px;
+    padding: 10px;
+}
+
+.module img {
+    width: 100%
+}
+
+.module {
+    width: 30%;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    padding: 10px;
+    min-height: 225px;
+}
+
+.module_card {
+    row-gap: 10px
+}
+
+.module_button {
+    height: 40px;
+    max-width: 150px;
+    margin-top: 20px;
+}
+
+.product_lists_btns {
+    column-gap: 20px;
+    border-radius: 10px
+}
+
+.product_modules, .now_buy {
+    width: 300px
+}
+
+.products_cards {
+    row-gap: 20px;
+}
+
+.product_card {
+    row-gap: 20px;
+    width: 23%;
+}
+
+.card_pic {
+    max-height: 300px
+}
+
+.rating {
+    column-gap: 10px
+}
+
+.rating img {
+    height: 25px;
+    width: 25px
+}
+
+.rating span {
+    color: #B0B0B0
+}
+
+.card_price {
+    column-gap: 10px
+}
+
+.line {
+    width: 100%;
+    border-bottom: 1px solid lightgrey
+}
+
+.footer_card img {
+    width: 30px;
+    height: 30px
+}
+
+.card_price h2 {
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFB800;
+    margin-bottom: 0
+}
+
+.card_price img {
+    height: 50%
+}
+
+.news {
+    margin-top: 80px;
+    row-gap: 20px;
+}
+
+.columns img {
+    width: 121px;
+    height: 51px
+}
+
+.column {
+    width: 20%;
+    row-gap: 15px
+}
+
+.columns li {
+    list-style: none;
+
+}
+
+.columns ul {
+    padding: 0
+}
+
+.columns li::before {
+    content: " — ";
+    color: black;
+}
+
+.footer {
+    background: #0C1A2A;
+}
+
+.footer h2, h3 {
+    color: #868DAC;
+}
+
+.footer a {
+    color: #FFFFFF
+}
+
+.footer_left-side {
+    width: 60%
+}
+
+.footer_column {
+    max-width: 33%
+}
+
+.pay_cards img {
+    max-width: 114px;
+    max-height: 45px
+}
+
+.pay_cards {
+    margin-top: 40px
+}
+
+.footer_right-side p {
+    color: #FFFFFF
+}
+
+
+.footer_contacts {
+    width: 100%
+}
+
+.footer_right-side {
+    width: 40%;
+    row-gap: 20px;
+}
+
+.footer_right-side h3 {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.form-control {
+    background: none
+}
+
+.subscribe_input {
+    padding: 10px 80px
+}
+
+.soc_aps {
+    column-gap: 60px
+}
+
+.mobile_info {
+    display: none
+}
+
+.mobile_show {
+    display: none
+}
